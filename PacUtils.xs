@@ -110,7 +110,7 @@ load(const char *file)
 
           hash = newHV();
 
-          _STORE_STR(hash, "root", config->rootdir);
+          _STORE_STR(hash, "rootdir", config->rootdir);
           _STORE_STR(hash, "dbpath", config->dbpath);
           _STORE_STR(hash, "gpgdir", config->gpgdir);
           _STORE_STR(hash, "logfile", config->logfile);
